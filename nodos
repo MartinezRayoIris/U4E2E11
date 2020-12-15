@@ -1,0 +1,15 @@
+package arbol;
+
+/**
+ *
+ * @author marti
+ */
+public class nodos {
+    int ed;
+    nodos izq,der;
+    nodos raiz;
+    
+    String nom;
+    nodos izq2,der2;
+    nodos raiz2;
+}
