@@ -12,25 +12,65 @@ import java.util.Scanner;
  * @author marti
  */
 public class Arbol {
+      metodos obj= new metodos();
     public void menu(){
         Scanner j= new Scanner(System.in);
- System.out.println("1");
-  System.out.println("2");
-  System.out.println("3"); 
-  System.out.println("4");
-   System.out.println("5");
-    System.out.println("6");
-     System.out.println("7");
-      System.out.println("8");
-       System.out.println("9");
-        System.out.println("10");
-        System.out.println("11");
-        int n=j.nextInt();
-        int k=0;
-        switch(k=n){
-        
-        }
-       
+  System.out.println("***********************************");
+            System.out.println("*Operaciones con Árbol Binario*");
+            System.out.println("***********************************");
+            System.out.println("1.¿Quien es la persona mas pequeña y que edad tiene?");
+            System.out.println("2.¿Quien es la persona más grande y que edad tiene?");
+            System.out.println("3.¿Cuantos años de diferencia tiene la persona más grande y la persona más chica?");
+            System.out.println("4.¿Cuantos participantes hay?");
+            System.out.println("5.¿Cuanto es la suma de las edades de los participantes?");
+            System.out.println("6.¿Cual es el promedio de edad de los participantes?");
+            System.out.println("7.Mostrar altura");
+            System.out.println("8.Mostrar en pre-orden");
+            System.out.println("9.Mostrar en in-orden");
+            System.out.println("10.Mostrar post-orden");
+            System.out.println("11.Salir");
+            int op = leer.nextInt();
+            
+            switch(op){
+                case 1: 
+                   // obj.Menor();
+                    break;
+                case 2: 
+                   // obj.mayor();
+                    break;
+                case 3: 
+                    
+                    break;
+                case 4: 
+                 //   obj.cantidad();
+                    break;
+                case 5: 
+                    break;
+                case 6: 
+                    
+                    break;
+                case 7: System.out.print ("Altura del arbol:");
+                       // obj.retornarAltura();
+                    break;
+                case 8: System.out.println("Pre-Orden");
+                        obj.imprimirPre();
+                    break;
+                case 9: System.out.println("In-Orden");
+                        obj.imprimirEntre();
+                    break;
+                case 10: System.out.println("Post-Orden");
+                         obj.imprimirPost ();
+                    break;
+                case 11: 
+                   // continuar = false;
+                    break;
+                default: System.out.println("El valor ingresado es incorrecto");
+            }
+      
+  
+  
+    }
+    /
       
   
   
