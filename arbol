@@ -33,16 +33,16 @@ public class Arbol {
             
             switch(op){
                 case 1: 
-                   // obj.Menor();
+                   
                     break;
                 case 2: 
-                   // obj.mayor();
+                  
                     break;
                 case 3: 
                     
                     break;
                 case 4: 
-                 //   obj.cantidad();
+                
                     break;
                 case 5: 
                     break;
@@ -50,8 +50,7 @@ public class Arbol {
                     
                     break;
                 case 7: System.out.print ("Altura del arbol:");
-                       // obj.retornarAltura();
-                    break;
+                       
                 case 8: System.out.println("Pre-Orden");
                         obj.imprimirPre();
                     break;
@@ -80,7 +79,8 @@ public class Arbol {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-      Arbol p= new Arbol();
+      Arbol b= new Arbol();
+      b.menu();
     }
     
 }
